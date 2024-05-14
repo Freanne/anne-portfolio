@@ -9,8 +9,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 const Skills = () => {
   return (
-    <div className='m-12' >
-        <h1 className='m-10 text-center'> SKILLS <hr className='mx-auto bg-red-500'  style={{width:"100px", height:"2px"}}/></h1>
+    <div className='m-12 mt-36' >
+        <h1 className='m-10 text-center font-bold'> SKILLS <hr className='mx-auto bg-[#FEC400]'  style={{width:"100px", height:"5px"}}/></h1>
         
         
         <div className='grid md:grid-cols-3 sm:grid-cols-2'>
@@ -20,7 +20,7 @@ const Skills = () => {
                    
                 </div>
                 <div className="border-2 m-2 p-4 flex flex-col items-center bg-gray-100 shadow-xl">
-                        <FaCss3 className='text-4xl mb-2'/>
+                        <FaCss3 className='text-4xl mb-2 bg-[#FEC400]'/>
                         <span>CSS</span>
                 </div>
                 <div className="border-2 m-2 p-4 flex flex-col items-center bg-gray-100 shadow-xl">

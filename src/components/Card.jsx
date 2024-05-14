@@ -15,7 +15,7 @@ const Card = ({image, name, description,lienG,lienV}) => {
                         <p className="mt-4">{description}</p>
                         <div className="flex items-center mt-8">
                             <a href={lienG}><FaGithub className="text-4xl mr-12"/></a>
-                            <a href={lienV} className="bg-black text-white p-2 rounded-lg shadow-sm">Visitez le projet</a>
+                            <a href={lienV} className="bg-[#FEC400] text-black font-semibold p-2 rounded-lg shadow-sm">Visitez le projet</a>
                         </div>
                         
                             

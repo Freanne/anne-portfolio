@@ -10,7 +10,7 @@ const Header = () => {
             <NavBar/>
       </div>
       <div className='grid xl:grid-cols-2'>
-            <div className='bg-[#C19D23] flex items-center justify-center pt-16' >
+            <div className='bg-[#fbc30a] flex items-center justify-center pt-16' >
               <img src={image} alt="" className='' style={{width:"300px"}}/>
             </div>
             <div className=' xl:pt-20 pl-8 bg-[#F8F8F8]'>
