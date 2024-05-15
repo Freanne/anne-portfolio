@@ -8,9 +8,20 @@
 }
 body {
     margin: 0;
-
+    /* background-color: #1a1a1a;  */
+}
+body .dark{
+    background-color: #1a1a1a;
 }
 
 button{
-    /* ae8602 */
+    /* ae8602 : jaune
+        #1A1A1A : noir
+
+    dark*/
+    /* light :
+        *** #fbc30a : jaune1
+            #F8F8F8 : blanc sale
+            #FEC400 :jaune2
+     */
 }
