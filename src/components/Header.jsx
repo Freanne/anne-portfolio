@@ -9,7 +9,7 @@ const Header = ({darkMode, toggleDarkMode}) => {
       <div className='absolute top-0 left-0 w-full'>
             <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
       </div>
-      <div className='grid xl:grid-cols-2'>
+      <div className='grid xl:grid-cols-2 h-full'>
             <div className={`${darkMode ? "bg-[#ae8602]" : "bg-[#fbc30a]"} flex items-center justify-center pt-16 `} >
               <img src={image} alt="" className='' style={{width:"300px"}}/>
             </div>

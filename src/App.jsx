@@ -12,7 +12,7 @@ function App() {
    }
 
   return (
-   <div className={`app ${darkMode ? "dark" : " "}`}>
+   <div className={`app ${darkMode ? "dark" : "light"}`}>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Projects darkMode={darkMode} toggleDarkMode={toggleDarkMode} />

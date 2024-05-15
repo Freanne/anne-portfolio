@@ -13,6 +13,9 @@ body {
 body .dark{
     background-color: #1a1a1a;
 }
+body .light{
+    background-color: #F8F8F8;
+}
 
 button{
     /* ae8602 : jaune
