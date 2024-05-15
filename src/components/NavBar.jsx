@@ -18,7 +18,7 @@ const NavBar = ({darkMode, toggleDarkMode}) => {
           {isOpen ? <MdClose className="text-4xl" /> : <MdMenu className="text-4xl" />}
         </button>
         {/* <MdDarkMode/> */}
-        <ul className={`p-4 md:flex flex-col md:flex-row md:p-4 justify-end pr-36 text-lg font-medium ${isOpen ? "md:justify-end" : "hidden"} xl:pl-auto`}>
+        <ul className={`p-4 md:flex flex-col md:flex-row md:p-4 justify-end pr-36 text-lg font-medium ${isOpen ? "md:justify-end bg-transparent" : "hidden"} xl:pl-auto`}>
           <li className="mr-auto">
             <button onClick={toggleDarkMode}>
             {darkMode ? <MdOutlineLightMode className="text-4xl" /> :  <MdDarkMode className="text-4xl"/>  }
@@ -28,7 +28,6 @@ const NavBar = ({darkMode, toggleDarkMode}) => {
             <a href="" className={`${darkMode ? "" : ""} `}>
               Home
             </a>
-            <hr className="" style={{height:"10px", color:"blue"}}/>
           </li>
           <li className="mr-20">
             <a href="#skills">
