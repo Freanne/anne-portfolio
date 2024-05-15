@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import NavBar from "./components/NavBar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
+import Contact from "./components/Contact"
 
 function App() {
    const [darkMode, setDarkMode] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Projects darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Contact/>
    </div>
     )
 }

@@ -20,7 +20,7 @@ export const projects = [
         image : "/tenzies.png",
         name :"Tenzies Games", 
         description: " Un jeu qui vous permet de faire corresspondre des chiffres de même valeur.",
-        lien_vercel : "",
+        lien_vercel : "https://tenzies-game-rose.vercel.app/",
         lien_github :"https://github.com/Freanne",
 
     },

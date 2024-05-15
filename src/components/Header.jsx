@@ -17,7 +17,7 @@ const Header = ({darkMode, toggleDarkMode}) => {
                 <h1 className='text-3xl mt-12 m-5'> Hello !</h1>
                 <h1 className='text-3xl m-5 font-bold'> Je suis Anne-Marie AKOTEGNON</h1>
                 <h2 className='m-5'> Je suis étudiante en fin de formation en Génie Logiciel. Passionnée par la technologie, je suis en formation pour être Développeur Front-End et je me base sur React JS pour développer mes interfaces.</h2>
-                <div className='text-center'>
+                <div className='text-center text-xl font-semibold'>
                     <button className={`${darkMode ? "bg-[#ae8602]" : "bg-[#FEC400]" } shadow-xl rounded-full p-2 w-36 mt-8 mb-4`}> Hire me </button>
                 </div>
             </div>
