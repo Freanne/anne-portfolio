@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 function App() {
    const [darkMode, setDarkMode] = useState(false);
@@ -17,7 +18,8 @@ function App() {
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Projects darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Contact/>
+      <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
+      <Footer/>
    </div>
     )
 }
