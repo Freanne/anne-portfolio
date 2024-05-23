@@ -19,7 +19,7 @@ function App() {
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Projects darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-      <Footer/>
+      <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
    </div>
     )
 }
