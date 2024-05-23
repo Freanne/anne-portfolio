@@ -32,7 +32,7 @@ const Contact = ({ darkMode, toggleDarkMode }) => {
 
 
   return (
-    <div className='text-center m-12 bg-white'>
+    <div className='text-center m-4 bg-white'>
     <h1 className={`mt-16 text-center font-bold text-2xl`}>
       CONTACT
       <hr className={`mx-auto ${darkMode ? "bg-[#ae8602]" : "bg-[#FEC400]"}`} style={{ width: "200px", height: "5px" }} />
