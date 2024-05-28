@@ -21,22 +21,22 @@ const NavBar = ({darkMode, toggleDarkMode}) => {
         <ul className={`p-4 md:flex flex-col md:flex-row md:p-4 justify-end pr-36 text-lg font-medium ${isOpen ? "md:justify-end bg-transparent" : "hidden"} xl:pl-auto`}>
           <li className="mr-auto">
             <button onClick={toggleDarkMode}>
-            {darkMode ? <MdOutlineLightMode className="text-4xl" /> :  <MdDarkMode className="text-4xl"/>  }
+            {darkMode ? <MdOutlineLightMode className="text-4xl icon-container" /> :  <MdDarkMode className="text-4xl icon-container"/>  }
             </button>
           </li>
           <li className="mr-20">
             <a href="" className={`${darkMode ? "" : ""} `}>
-              Home
+              Accueil
             </a>
           </li>
           <li className="mr-20">
             <a href="#skills">
-              Skills
+              Compétences
             </a>
           </li>
           <li className="mr-20">
             <a href="#projects">
-              Projects
+              Projets
             </a>
           </li>
           <li className="mr-20">

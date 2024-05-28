@@ -10,7 +10,7 @@ const Footer = ({ darkMode, toggleDarkMode }) => {
         <h1 className="font-bold pl-6">Téléphone</h1>
         <p>+229 60-82-89-08</p>
       </div>
-      <div className={`md:w-1/3  mt-4 items-center justify-center ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
+      <div className={`md:w-1/3  mt-2 items-center justify-center ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
         <h1 className="font-bold">Suivez-moi</h1>
         <div className="flex justify-center">
           <a href="#"><FaFacebookSquare className="text-xl mr-2" /></a>
@@ -18,7 +18,7 @@ const Footer = ({ darkMode, toggleDarkMode }) => {
           <a href="#"><FaTwitterSquare className="text-xl" /></a>
         </div>
       </div>
-      <div className={`md:w-1/3 mt-4 ${darkMode ? 'text-white' : 'text-black'} ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
+      <div className={`md:w-1/3 mt-2 ${darkMode ? 'text-white' : 'text-black'} ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
         All right reserved © 2024
       </div>
     </div>
