@@ -25,7 +25,7 @@ const NavBar = ({darkMode, toggleDarkMode}) => {
             </button>
           </li>
           <li className="mr-20">
-            <a href="" className={`${darkMode ? "" : ""} `}>
+            <a href="#home" className={`${darkMode ? "" : ""} `}>
               Accueil
             </a>
           </li>
@@ -35,7 +35,7 @@ const NavBar = ({darkMode, toggleDarkMode}) => {
             </a>
           </li>
           <li className="mr-20">
-            <a href="#projects">
+            <a href="#projet">
               Projets
             </a>
           </li>

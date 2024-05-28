@@ -9,7 +9,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 const Skills = ({darkMode, toggleDarkMode}) => {
   return (
-    <div className={`${darkMode ? "" :""} xl:m-20 m-8 `} >
+    <div id="skills" className={`${darkMode ? "" :""} xl:m-20 m-8 `} >
         <h1 className={`m-10 text-center font-bold text-2xl ${darkMode ? "text-[#F8F8F8]" : "text-black"}`}> COMPETENCES <hr className={`mx-auto  ${darkMode ? "bg-[#ae8602]" : "bg-[#FEC400]"}`} style={{width:"200px", height:"5px"}}/></h1>
         
         

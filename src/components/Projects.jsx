@@ -3,7 +3,7 @@ import Card from './Card'
 import { projects } from './data'
 const Projects = ({darkMode, toggleDarkMode}) => {
   return (
-    <div className={`${darkMode ? "" : ""}`}>
+    <div id="projet" className={`${darkMode ? "" : ""}`}>
       <h1 className={`mt-16 text-center font-bold text-2xl ${darkMode ? "text-[#F8F8F8]" : ""}`}> PROJETS <hr className={`mx-auto  ${darkMode ? "bg-[#ae8602]" : "bg-[#FEC400]"}`} style={{width:"200px", height:"5px"}}/></h1>
       {
         projects.map((item, index) =>

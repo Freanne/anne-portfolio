@@ -5,11 +5,11 @@ import NavBar from './NavBar'
 
 const Header = ({darkMode, toggleDarkMode}) => {
   return (
-    <header className={`relative ${darkMode ? "dark": ""}`}>
-      <div className='absolute top-0 left-0 w-full'>
+    <header id="home" className={`relative z-1 ${darkMode ? "dark": ""}`}>
+      <div className='absolute z-20 top-0 left-0 w-full'>
             <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
       </div>
-      <div className='grid xl:grid-cols-2'>
+      <div className='grid xl:grid-cols-2 h-full'>
             <div className={`flex items-center justify-center `} >
               <div className={`w-72 h-72 flex items-center justify-center animated-image  ${darkMode ? "bg-[#ae8602]" : "bg-[#fbc30a]"} rounded-full mt-12`}>
                   <img src={image} alt="" className='w-full h-full object-cover rounded-full ' style={{width:"250px"}}/>
