@@ -13,9 +13,9 @@ const Footer = ({ darkMode, toggleDarkMode }) => {
       <div className={`md:w-1/3  mt-2 items-center justify-center ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
         <h1 className="font-bold">Suivez-moi</h1>
         <div className="flex justify-center">
-          <a href="#"><FaFacebookSquare className="text-xl mr-2" /></a>
-          <a href="#"><FaInstagramSquare className="text-xl mr-2" /></a>
-          <a href="#"><FaTwitterSquare className="text-xl" /></a>
+          <a href="https://www.facebook.com/annemarie.akotegnon/"><FaFacebookSquare className="text-xl mr-2" /></a>
+          <a href="https://www.instagram.com/annemarieakotegnon/"><FaInstagramSquare className="text-xl mr-2" /></a>
+          <a href="https://x.com/AkotegnonAnne"><FaTwitterSquare className="text-xl" /></a>
         </div>
       </div>
       <div className={`md:w-1/3 mt-2 ${darkMode ? 'text-white' : 'text-black'} ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>

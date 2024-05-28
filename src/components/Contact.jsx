@@ -32,15 +32,18 @@ const Contact = ({ darkMode, toggleDarkMode }) => {
 
 
   return (
-    <div id="contact" className='text-center m-4 bg-white'>
+    <div id="contact" className='text-center m-4 '>
     <h1 className={`mt-16 text-center font-bold text-2xl`}>
       CONTACT
       <hr className={`mx-auto ${darkMode ? "bg-[#ae8602]" : "bg-[#FEC400]"}`} style={{ width: "200px", height: "5px" }} />
     </h1>
-    <div>
+    <div className='mt-8 bg-white'>
+    {/* <iframe data-tally-src="https://tally.so/embed/w7Dqzz?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="563" title="Contact form
+"></iframe> */}
     <iframe 
-      src="https://tally.so/embed/n9dzyX?hideTitle=1&transparentBackground=1&dynamicHeight=1"
-     // src="https://tally.so/embed/n9dzyX?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+        //  src="https://tally.so/embed/w7Dqzz?hideTitle=1&transparentBackground=1&dynamicHeight=1"
+     src="https://tally.so/embed/n9dzyX?hideTitle=1&transparentBackground=1&dynamicHeight=1"
+   
       loading="lazy" 
       width="100%" 
       height="313" 
@@ -48,7 +51,7 @@ const Contact = ({ darkMode, toggleDarkMode }) => {
       marginHeight="0" 
       marginWidth="0" 
       title="Contact form"
-    ></iframe>
+    ></iframe> 
     </div>
    
    </div>
