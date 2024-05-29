@@ -3,6 +3,7 @@ import image from '/anne-removebg-preview.png'
 import NavBar from './NavBar'
 
 
+
 const Header = ({darkMode, toggleDarkMode}) => {
   return (
     <header id="home" className={`relative z-1 ${darkMode ? "dark": ""}`}>
@@ -23,7 +24,12 @@ const Header = ({darkMode, toggleDarkMode}) => {
                 Je suis étudiante en dernière année de formation en Génie Logiciel et je suis passionnée par la technologie. Actuellement, je me spécialise en tant que Développeuse Front-End, en utilisant React JS pour créer des interfaces utilisateur interactives et intuitives. Je suis constamment à la recherche de nouvelles connaissances et compétences pour améliorer mes capacités et rester à la pointe des tendances technologiques. Mon objectif est de contribuer à des projets innovants et de collaborer avec des équipes dynamiques pour créer des expériences utilisateur exceptionnelles.
                 </h2>
                 <div className='m-5 text-xl font-semibold'>
-                    <button className={`${darkMode ? "bg-[#ae8602]" : "bg-[#FEC400]" } shadow-xl rounded-full p-4 m-5`}> Embauchez-moi !</button>
+                    <button 
+                      className={`${darkMode ? "bg-[#ae8602]" : "bg-[#FEC400]" } shadow-xl rounded-full p-4 m-5`} 
+                      onClick={() => window.location.href="mailto:akotegnonannemarie@gmail.com"}
+                    > 
+                          Embauchez-moi !
+                    </button>
                 </div>
             </div>
         </div>

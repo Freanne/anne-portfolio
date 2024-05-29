@@ -1,9 +1,13 @@
 
 import React from 'react';
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = ({ darkMode, toggleDarkMode }) => {
   return (
+
+
     <div className="flex flex-col md:flex-row items-center justify-center">
       <hr className="m-6 bg-slate-600" />
       <div className={`md:w-1/3 ${darkMode ? 'text-white' : 'text-black'} ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
@@ -18,10 +22,18 @@ const Footer = ({ darkMode, toggleDarkMode }) => {
           <a href="https://x.com/AkotegnonAnne"><FaTwitterSquare className="text-xl" /></a>
         </div>
       </div>
-      <div className={`md:w-1/3 mt-2 ${darkMode ? 'text-white' : 'text-black'} ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
-        All right reserved © 2024
+      <div className={`xl:flex md:w-1/3 mt-2 ${darkMode ? 'text-white' : 'text-black'} ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
+        <p>All right reserved © 2024</p>
+        <div className='xl:ml-auto flex items-center justify-center'>
+        <a href="https://wa.me/60828908"><IoLogoWhatsapp className='mr-16 text-4xl text-green-500 shadow-2xl '/></a>
+        <a href="https://www.linkedin.com/in/anne-marie-akotegnon-8918a1236/"><FaLinkedin className='xl:mr-12 text-4xl text-blue-700 shadow-3xl'/></a>
+        </div>
+        
       </div>
     </div>
+  
+   
+
   );
 };
 
