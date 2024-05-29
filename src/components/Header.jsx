@@ -27,6 +27,7 @@ const Header = ({darkMode, toggleDarkMode}) => {
                     <button 
                       className={`${darkMode ? "bg-[#ae8602]" : "bg-[#FEC400]" } shadow-xl rounded-full p-4 m-5`} 
                       onClick={() => window.location.href="mailto:akotegnonannemarie@gmail.com"}
+                      formTarget='_blank'
                     > 
                           Embauchez-moi !
                     </button>

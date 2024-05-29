@@ -69,8 +69,10 @@ button{
     width: 60px; 
     height: 100px; 
     top: initial; 
-    /* z-index: 1000; */
+    z-index: 1000;
 }
+
+
 
 .tooltip-text {
     visibility: hidden;
