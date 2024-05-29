@@ -27,6 +27,9 @@ button{
             #F8F8F8 : blanc sale
             #FEC400 :jaune2
      */
+     /*
+     style="position: fixed; bottom: 0px; backface-visibility: hidden; right: 0px; left: initial; width: 108px; height: 208px; top: initial; z-index: 2147483647;"
+     */
 }
 .animated-image {
     animation: bounce 2s infinite;
@@ -56,3 +59,48 @@ button{
       transform: rotate(360deg);
     }
   }
+
+#fixedButton{
+    position: fixed;
+    bottom: 0px;
+    backface-visibility: hidden; 
+    right: 0px; 
+    left: initial; 
+    width: 60px; 
+    height: 100px; 
+    top: initial; 
+    /* z-index: 1000; */
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Positionnez le tooltip au-dessus du bouton */
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* En bas du tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
