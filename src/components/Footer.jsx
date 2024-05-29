@@ -24,9 +24,9 @@ const Footer = ({ darkMode, toggleDarkMode }) => {
       </div>
       <div className={`xl:flex md:w-1/3 mt-2 ${darkMode ? 'text-white' : 'text-black'} ${darkMode ? 'text-white' : 'text-black'} md:text-center`}>
         <p>All right reserved © 2024</p>
-        <div className='xl:ml-auto flex-col items-center justify-center'>
-        <a href="https://wa.me/60828908"><IoLogoWhatsapp className='mr-16 text-4xl bg-green-100 text-green-100 shadow-2xl rounded-full '/></a>
-        <a href="https://www.linkedin.com/in/anne-marie-akotegnon-8918a1236/"><FaLinkedin className='xl:mr-12 text-4xl text-blue-700 shadow-3xl'/></a>
+        <div className='xl:ml-auto flex items-center justify-center'>
+        <a href="https://wa.me/60828908"><IoLogoWhatsapp className='m text-4xl text-green-500 shadow-2xl '/></a>
+        <a href=""><FaLinkedin className='xl:mr-40 text-4xl text-blue-700 shadow-3xl'/></a>
         </div>
         
       </div>
